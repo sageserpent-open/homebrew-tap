@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.26.0 at 2026-10-14T20:24:28.595485669Z
+# Generated with JReleaser 1.26.0 at 2026-10-15T11:36:38.6302228Z
 
 class KineticMerge < Formula
   desc "Merge a heavily refactored codebase and stay sane."
@@ -7,8 +7,8 @@ class KineticMerge < Formula
   license "MIT"
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.21.6/com.sageserpent.kinetic-merge-1.21.6-linux-x86_64.zip"
-    sha256 "66e4014862998222254936adb5fb8877248bd481fd81f8220d0a8036fb76ca04"
+    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.21.6/kinetic-merge-1.21.6-linux-x86_64.zip"
+    sha256 "53038f290ebba5fd70e6fd416bcd4bd66732a2625e0b353b8150074d897c5f6a"
   end
 
 
