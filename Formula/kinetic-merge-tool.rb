@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.26.0 at 2026-10-15T11:36:38.6302228Z
+# Generated with JReleaser 1.26.0 at 2026-10-15T11:45:52.002145672Z
 
 class KineticMergeTool < Formula
   desc "Merge a heavily refactored codebase and stay sane."
@@ -8,7 +8,7 @@ class KineticMergeTool < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.21.6/kinetic-merge-tool-1.21.6-linux-x86_64.zip"
-    sha256 "69f367938517645bfeaba20c78853dc3618572f3dfea13be9cf1f5d7a19da86e"
+    sha256 "c74bce24fb287ab8496c57cd48e7ef6298ddeee9291cea7b25e1da0ca07d2366"
   end
 
 
