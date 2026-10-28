@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.26.0 at 2026-10-28T15:13:10.250526193Z
+# Generated with JReleaser 1.26.0 at 2026-10-28T15:35:35.467132495Z
 
 class KineticMerge < Formula
   desc "Merge a heavily refactored codebase and stay sane."
@@ -8,15 +8,15 @@ class KineticMerge < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.22.2/kinetic-merge-1.22.2-linux-x86_64.zip"
-    sha256 "fd0da76324c4db85d167ed919053d7cd29f7cc443d8766823cd358a8b20c4d1c"
+    sha256 "a8fa9a8c4cd2023d408026e214014dc61c985162802d3e993e678619967b0e3e"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.22.2/kinetic-merge-1.22.2-osx-aarch_64.zip"
-    sha256 "bfc02f1ee7c43f21c0cf2cba26a88ef33f4dc106920935ac7c241f360b76d335"
+    sha256 "33cc0355fb33ad7b20c782efb842a20e98ed579a8b56e457edca64e18783f490"
   end
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.22.2/kinetic-merge-1.22.2-osx-x86_64.zip"
-    sha256 "d397f190e693dd24c3b4895b25be19147dde5a79365c5414548165ceb3dd534c"
+    sha256 "77f2f3c4589f6c2fc3080e83fc49b59716ab195679433e8917f2ca8ea967e287"
   end
 
 
