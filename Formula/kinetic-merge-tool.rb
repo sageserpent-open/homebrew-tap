@@ -1,22 +1,22 @@
-# Generated with JReleaser 1.27.0 at 2026-11-08T18:18:15.036193037Z
+# Generated with JReleaser 1.27.0 at 2026-11-10T07:57:44.213448647Z
 
 class KineticMergeTool < Formula
   desc "Merge a heavily refactored codebase and stay sane."
   homepage "https://github.com/sageserpent-open/kineticMerge"
-  version "1.25.0"
+  version "1.25.1"
   license "MIT"
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.25.0/kinetic-merge-tool-1.25.0-linux-x86_64.zip"
-    sha256 "6c0961d87ab5f2a0c0e2b7234143fd51b2cdca42d549dcb77a0189dc9a01ce27"
+    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.25.1/kinetic-merge-tool-1.25.1-linux-x86_64.zip"
+    sha256 "203088e75e47a6eb1767f6443300fd5420a3b9035fa95d8ac9397fd28e44448f"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.25.0/kinetic-merge-tool-1.25.0-osx-aarch_64.zip"
-    sha256 "e3dc5e0ff87537a11b5734547f8f7c4518a96844cebfa2d72ec73d772b0e8c03"
+    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.25.1/kinetic-merge-tool-1.25.1-osx-aarch_64.zip"
+    sha256 "4864c2e12359e53449bf21489ab0ac389779450af2c639a1cf6cd90815d1d385"
   end
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.25.0/kinetic-merge-tool-1.25.0-osx-x86_64.zip"
-    sha256 "f5826bed60539ecaee18dc57eeee944ad633286e6db01c1bf5e2c0d0b7d61fce"
+    url "https://github.com/sageserpent-open/kineticMerge/releases/download/v1.25.1/kinetic-merge-tool-1.25.1-osx-x86_64.zip"
+    sha256 "f9ecea9cac6dd8f5d5bffbf6618bb47e3705a78f1f8083532ece64193b18d78b"
   end
 
 
@@ -38,6 +38,6 @@ class KineticMergeTool < Formula
 
   test do
     output = shell_output("#{bin}/kinetic-merge-tool --version")
-    assert_match "1.25.0", output
+    assert_match "1.25.1", output
   end
 end
